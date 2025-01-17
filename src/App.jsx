@@ -53,7 +53,7 @@ export default function App() {
     })
   }
   return (
-    <div className="px-4 py-6">
+    <div className="px-4 py-6 h-full">
       <NewTodoForm addTodo={addTodo} />
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo}/>
     </div>
