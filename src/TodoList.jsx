@@ -3,7 +3,6 @@ import TodoItem from "./TodoItem"
 export default function TodoList({ todos, toggleTodo, deleteTodo }) {
     return (
         <ul className="list">
-        { !todos.length && 'No Todos'  }
         {
           todos.map(todo => {
             return (
